@@ -1,0 +1,48 @@
+body {
+	font-family: 'Ubuntu', sans-serif;
+	background-color: coral;
+	box-shadow: 0 8px 32px 0 rgba(245, 40, 13, 0.37);
+	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
+	border-radius: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.18);
+	width: 600px;
+	margin: 30px auto;
+	padding: 20px;
+}
+
+.wrapper {
+	width: 700px;
+	margin: auto;
+	min-height: 400px;
+}
+
+input[type='text'] {
+	width: 75%;
+	height: 30px;
+	border: none;
+	padding: 5px;
+}
+
+button {
+	height: 40px;
+	border: none;
+	padding: 0 18px;
+	background-color: #00ff0d;
+	font-weight: bold;
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+li {
+	padding: 20px 0px;
+	width: 85.8%;
+	border-bottom: solid 1px black;
+}
+
+input[type='checkbox'] {
+	float: right;
+}
